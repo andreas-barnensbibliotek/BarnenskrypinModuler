@@ -1,0 +1,18 @@
+﻿<h3>bb_aj_Start_Krypin</h3>
+<p class="Contributor">
+	andreas josefsson <br />
+	<a href="mailto:andreas@barnensbibliotek.se">andreas@barnensbibliotek.se</a><br />
+	<a href=http://www.dotnetnuke.com>http://www.dotnetnuke.com</a><br />
+	This extension was created using <a href="http://www.christoc.com">Christoc's</a> Module Development Templates for DNN.
+</p>
+<hr/>
+<div class="License">
+	<h3>About the bb_aj_Start_Krypin</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Krypin Start module</p>
+	
+	
+	
+</div>

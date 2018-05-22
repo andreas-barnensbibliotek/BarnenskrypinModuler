@@ -1,0 +1,8 @@
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Bibblomon_Krypin.dll.config
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Bibblomon_Krypin.dll
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Bibblomon_Krypin.pdb
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Bibblomon_Krypin.xml
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Bibblomon_Krypin\obj\Release\bb_aj_Bibblomon_Krypin.dll
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Bibblomon_Krypin\obj\Release\bb_aj_Bibblomon_Krypin.xml
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Bibblomon_Krypin\obj\Release\bb_aj_Bibblomon_Krypin.pdb
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Bibblomon_Krypin\obj\Release\bb_aj_Bibblomon_Krypin.vbprojResolveAssemblyReference.cache

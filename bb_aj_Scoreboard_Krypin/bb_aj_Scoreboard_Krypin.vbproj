@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{279C5C96-5031-407A-919C-EF50FD06454D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>krypin.bb_aj.scoreboardbb_aj_Scoreboard_Krypin</RootNamespace>
+    <AssemblyName>bb_aj_Scoreboard_Krypin</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DocumentationFile>bb_aj_Scoreboard_Krypin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DocumentationFile>bb_aj_Scoreboard_Krypin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetNuke, Version=7.0.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\DotNetNuke.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\FeatureController.vb" />
+    <Compile Include="Data\DataProvider.vb" />
+    <Compile Include="Providers\DataProviders\SqlDataProvider\SqlDataProvider.vb" />
+    <Compile Include="Settings.ascx.designer.vb">
+      <DependentUpon>Settings.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.ascx.vb">
+      <DependentUpon>Settings.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bb_aj_Scoreboard_KrypinSettingsBase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit.ascx.designer.vb">
+      <DependentUpon>Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit.ascx.vb">
+      <DependentUpon>Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="bb_aj_Scoreboard_KrypinModuleBase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View.ascx.designer.vb">
+      <DependentUpon>View.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="View.ascx.vb">
+      <DependentUpon>View.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\Documentation.css" />
+    <Content Include="Documentation\Documentation.html" />
+    <Content Include="Edit.ascx" />
+    <Content Include="images\badges\001-medal-47.png" />
+    <Content Include="images\badges\002-medal-46.png" />
+    <Content Include="images\badges\003-medal-45.png" />
+    <Content Include="images\badges\004-trophy-21.png" />
+    <Content Include="images\badges\005-trophy-20.png" />
+    <Content Include="images\badges\006-medal-44.png" />
+    <Content Include="images\badges\007-trophy-19.png" />
+    <Content Include="images\badges\008-medal-43.png" />
+    <Content Include="images\badges\009-medal-42.png" />
+    <Content Include="images\badges\010-medal-41.png" />
+    <Content Include="images\badges\011-diploma-1.png" />
+    <Content Include="images\badges\012-trophy-18.png" />
+    <Content Include="images\badges\013-winner-3.png" />
+    <Content Include="images\badges\014-medal-40.png" />
+    <Content Include="images\badges\015-trophy-17.png" />
+    <Content Include="images\badges\016-winner-2.png" />
+    <Content Include="images\badges\017-medal-39.png" />
+    <Content Include="images\badges\018-shield-7.png" />
+    <Content Include="images\badges\019-medal-38.png" />
+    <Content Include="images\badges\020-winner-1.png" />
+    <Content Include="images\badges\021-medal-37.png" />
+    <Content Include="images\badges\022-medal-36.png" />
+    <Content Include="images\badges\023-crown-1.png" />
+    <Content Include="images\badges\024-shield-6.png" />
+    <Content Include="images\badges\025-podium-2.png" />
+    <Content Include="images\badges\026-shield-5.png" />
+    <Content Include="images\badges\027-diploma.png" />
+    <Content Include="images\badges\028-trophy-16.png" />
+    <Content Include="images\badges\029-trophy-15.png" />
+    <Content Include="images\badges\030-star.png" />
+    <Content Include="images\badges\031-trophy-14.png" />
+    <Content Include="images\badges\032-crown.png" />
+    <Content Include="images\badges\033-gold-medal.png" />
+    <Content Include="images\badges\034-trophy-13.png" />
+    <Content Include="images\badges\035-medal-35.png" />
+    <Content Include="images\badges\036-file.png" />
+    <Content Include="images\badges\037-medal-34.png" />
+    <Content Include="images\badges\038-shield-4.png" />
+    <Content Include="images\badges\039-trophy-12.png" />
+    <Content Include="images\badges\040-medal-33.png" />
+    <Content Include="images\badges\041-medal-32.png" />
+    <Content Include="images\badges\042-medal-31.png" />
+    <Content Include="images\badges\043-podium-1.png" />
+    <Content Include="images\badges\044-trophy-11.png" />
+    <Content Include="images\badges\045-medal-30.png" />
+    <Content Include="images\badges\046-flags.png" />
+    <Content Include="images\badges\047-winner.png" />
+    <Content Include="images\badges\048-trophy-10.png" />
+    <Content Include="images\badges\049-shield-3.png" />
+    <Content Include="images\badges\050-shield-2.png" />
+    <Content Include="images\badges\051-podium.png" />
+    <Content Include="images\badges\052-medal-29.png" />
+    <Content Include="images\badges\053-shield-1.png" />
+    <Content Include="images\badges\054-shield.png" />
+    <Content Include="images\badges\055-silver-medal-1.png" />
+    <Content Include="images\badges\056-medal-28.png" />
+    <Content Include="images\badges\057-medal-27.png" />
+    <Content Include="images\badges\058-trophy-9.png" />
+    <Content Include="images\badges\059-medal-26.png" />
+    <Content Include="images\badges\060-trophy-8.png" />
+    <Content Include="images\badges\061-silver-medal.png" />
+    <Content Include="images\badges\062-trophy-7.png" />
+    <Content Include="images\badges\063-medal-25.png" />
+    <Content Include="images\badges\064-medal-24.png" />
+    <Content Include="images\badges\065-trophy-6.png" />
+    <Content Include="images\badges\066-medal-23.png" />
+    <Content Include="images\badges\067-medal-22.png" />
+    <Content Include="images\badges\068-medal-21.png" />
+    <Content Include="images\badges\069-medal-20.png" />
+    <Content Include="images\badges\070-medal-19.png" />
+    <Content Include="images\badges\071-badge-3.png" />
+    <Content Include="images\badges\072-badge-2.png" />
+    <Content Include="images\badges\073-trophy-5.png" />
+    <Content Include="images\badges\074-medal-18.png" />
+    <Content Include="images\badges\075-flag.png" />
+    <Content Include="images\badges\076-medal-17.png" />
+    <Content Include="images\badges\077-trophy-4.png" />
+    <Content Include="images\badges\078-medal-16.png" />
+    <Content Include="images\badges\079-medal-15.png" />
+    <Content Include="images\badges\080-medal-14.png" />
+    <Content Include="images\badges\081-medal-13.png" />
+    <Content Include="images\badges\082-badge-1.png" />
+    <Content Include="images\badges\083-trophy-3.png" />
+    <Content Include="images\badges\084-trophy-2.png" />
+    <Content Include="images\badges\085-trophy-1.png" />
+    <Content Include="images\badges\086-medal-12.png" />
+    <Content Include="images\badges\087-badge.png" />
+    <Content Include="images\badges\088-medal-11.png" />
+    <Content Include="images\badges\089-medal-10.png" />
+    <Content Include="images\badges\090-medal-9.png" />
+    <Content Include="images\badges\091-medal-8.png" />
+    <Content Include="images\badges\092-medal-7.png" />
+    <Content Include="images\badges\093-medal-6.png" />
+    <Content Include="images\badges\094-medal-5.png" />
+    <Content Include="images\badges\095-medal-4.png" />
+    <Content Include="images\badges\096-trophy.png" />
+    <Content Include="images\badges\097-medal-3.png" />
+    <Content Include="images\badges\098-medal-2.png" />
+    <Content Include="images\badges\099-medal-1.png" />
+    <Content Include="images\badges\100-medal.png" />
+    <Content Include="images\badges\grey\001-medal-47.png" />
+    <Content Include="images\Gradute-Degree-128.png" />
+    <Content Include="License.txt" />
+    <Content Include="module.css" />
+    <Content Include="ReleaseNotes.txt" />
+    <Content Include="Settings.ascx" />
+    <Content Include="View.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bb_aj_Scoreboard_Krypin.dnn" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Edit.ascx.resx" />
+    <Content Include="App_LocalResources\Settings.ascx.resx" />
+    <Content Include="App_LocalResources\View.ascx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BuildScripts\ModulePackage.targets" />
+    <Content Include="BuildScripts\MSBuild.Community.Tasks.Targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Providers\DataProviders\SqlDataProvider\00.00.01.sqldataprovider" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Providers\DataProviders\SqlDataProvider\UnInstall.sqldataprovider" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62640</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://dnndev.me/desktopmodules/bb_aj_Scoreboard_Krypin</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://dnndev.me/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <Extension>zip</Extension>
+    <DNNFileName>bb_aj_Scoreboard_Krypin</DNNFileName>
+    <PackageName>bb_aj_Scoreboard_Krypin</PackageName>
+    <MSBuildCommunityTasksPath>$(SolutionDir)\Build</MSBuildCommunityTasksPath>
+  </PropertyGroup>
+  <Import Project="BuildScripts\ModulePackage.targets" />
+  <Target Name="AfterBuild" DependsOnTargets="PackageModule">
+  </Target>
+</Project>

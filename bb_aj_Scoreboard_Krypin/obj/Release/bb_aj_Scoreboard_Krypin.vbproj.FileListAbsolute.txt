@@ -1,0 +1,7 @@
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Scoreboard_Krypin.dll.config
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Scoreboard_Krypin.dll
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Scoreboard_Krypin.pdb
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Scoreboard_Krypin.xml
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Scoreboard_Krypin\obj\Release\bb_aj_Scoreboard_Krypin.dll
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Scoreboard_Krypin\obj\Release\bb_aj_Scoreboard_Krypin.xml
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Scoreboard_Krypin\obj\Release\bb_aj_Scoreboard_Krypin.pdb

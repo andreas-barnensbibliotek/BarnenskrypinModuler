@@ -1,0 +1,8 @@
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Boklistor_Krypin.dll.config
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Boklistor_Krypin.dll
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Boklistor_Krypin.pdb
+D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Boklistor_Krypin.xml
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Boklistor_Krypin\obj\Release\bb_aj_Boklistor_Krypin.vbprojResolveAssemblyReference.cache
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Boklistor_Krypin\obj\Release\bb_aj_Boklistor_Krypin.dll
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Boklistor_Krypin\obj\Release\bb_aj_Boklistor_Krypin.xml
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Boklistor_Krypin\obj\Release\bb_aj_Boklistor_Krypin.pdb
