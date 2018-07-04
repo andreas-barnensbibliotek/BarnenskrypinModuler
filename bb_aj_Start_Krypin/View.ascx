@@ -9,7 +9,7 @@
                                 
                                 <!-- Avatar start -->
                                 <div class="avatarItems">
-                                    <img src="/DesktopModules/bb_aj_Start_Krypin/images/avatars/defautlavatar_bandit.gif" />
+                                    <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/avatars/defautlavatar_bandit.gif" />
                                     <h3>Testlisa3</h3>
 
                                 </div>

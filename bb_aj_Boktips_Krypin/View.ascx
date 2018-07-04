@@ -8,8 +8,8 @@
                         <img src="/DesktopModules/bb_aj_Boktips_Krypin/images/Student-Read-03-128.png" />
                         <h1>Boktips</h1> 
                         <div class="booklistSetup">
-                            <a id="bb_aj_addbooklist" href="#"><img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/addBooklist.png" /></a>
-                            <a id="bb_aj_setupbooklist"  href="#"><img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/booklistSetup.png" /></a>
+                            <a id="bb_aj_cmdAdd_Boktips" href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/addBooklist.png" /></a>
+                            <a id="bb_aj_cmdSetting_Boktips"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/booklistSetup.png" /></a>
                             
                         </div>
 
@@ -19,20 +19,22 @@
             </div>
             
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_BooklistAdd">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_AddContainer_Boktips bb_aj_Container">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
                         <h3>Skriv boktips</h3>
+                        <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>                    
                     </div>                    
                 </div>
             </div>            
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_BooklistSettings">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_SettingsContainer_Boktips bb_aj_Container">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
                         <h3>Inställningar</h3>
+                        <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
                     </div>                    
                 </div>
             </div>            
@@ -53,8 +55,8 @@
                         </div>
                         <div class="Grid-cell">
                             <div class="bb_aj_gridItem mybookSettings">
-                                <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/print_32.png" />
-                                <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/mail_32.png" />
+                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" />
+                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" />
                             </div>
                         </div>
                     </div>
@@ -168,8 +170,8 @@
                             <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.com/Portals/0/bokomslag/9789187027321.jpg">
@@ -198,8 +200,8 @@
                         </div>
                         <div class="Grid-cell">
                             <div class="bb_aj_gridItem mybookSettings">
-                                <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/print_32.png" />
-                                <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/mail_32.png" />
+                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" />
+                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" />
                             </div>
                         </div>
                     </div>
@@ -212,8 +214,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.com/Portals/0/bokomslag/9789187027321.jpg">
@@ -234,8 +236,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.info/Portals/0/bokomslag/9789163894800.jpg">
@@ -256,8 +258,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.se/Portals/0/bokomslag/9789175911113.jpg">
@@ -278,8 +280,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.com/Portals/0/bokomslag/9789132201332.jpg">
@@ -301,8 +303,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.se/Portals/0/bokomslag/9789176517697.jpg">
@@ -323,8 +325,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.info/Portals/0/bokomslag/9789188665096.jpg">
@@ -345,8 +347,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.info/Portals/0/bokomslag/9789129693638.jpg">
@@ -367,8 +369,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                       <img src="http://www.barnensbibliotek.se/Portals/0/bokomslag/9789129693829.jpg">

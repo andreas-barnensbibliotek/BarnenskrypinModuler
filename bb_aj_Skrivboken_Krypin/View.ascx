@@ -8,8 +8,8 @@
                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/Stationery-Pen-128.png" />
                         <h1>Skrivboken</h1> 
                         <div class="booklistSetup">
-                            <a id="bb_aj_addbooklist" href="#"><img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/addBooklist.png" /></a>
-                            <a id="bb_aj_setupbooklist"  href="#"><img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/booklistSetup.png" /></a>
+                            <a id="bb_aj_cmdAdd_Skrivbok" href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/addBooklist.png" /></a>
+                            <a id="bb_aj_cmdSetting_Skrivbok"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/booklistSetup.png" /></a>
                             
                         </div>
 
@@ -19,20 +19,22 @@
             </div>
             
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_BooklistAdd">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_AddContainer_Skrivbok bb_aj_Container">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
-                        <h3>Lägg till boklista</h3>
+                        <h3>Lägg till i Skrivboken</h3>
+                        <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
                     </div>                    
                 </div>
             </div>            
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_BooklistSettings">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_SettingsContainer_Skrivbok bb_aj_Container">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
                         <h3>Inställningar</h3>
+                        <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
                     </div>                    
                 </div>
             </div>            
@@ -53,8 +55,8 @@
                         </div>
                         <div class="Grid-cell">
                             <div class="bb_aj_gridItem mybookSettings">
-                                <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/print_32.png" />
-                                <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/mail_32.png" />
+                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" />
+                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" />
                             </div>
                         </div>
                     </div>
@@ -135,8 +137,8 @@
                             <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_spanning256_36.png" />                                     
@@ -165,8 +167,8 @@
                         </div>
                         <div class="Grid-cell">
                             <div class="bb_aj_gridItem mybookSettings">
-                                <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/print_32.png" />
-                                <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/mail_32.png" />
+                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" />
+                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" />
                             </div>
                         </div>
                     </div>
@@ -179,8 +181,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_spanning256_36.png" />                                     
@@ -200,8 +202,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_spanning256_36.png" />                                     
@@ -221,8 +223,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image" style="background-color:#f4c4e1;">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_karlek 256_36.png" />                                     
@@ -242,8 +244,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image" style="background-color:#c4caf4;">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_ovrigt256_36.png" />                                     
@@ -265,8 +267,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_spanning256_36.png" />                                     
@@ -286,8 +288,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image" style="background-color:cornflowerblue;">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_aventyr 256_36.png" />                                     
@@ -307,8 +309,8 @@
                                 <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image" style="background-color:#ccc;">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_skrack256_36.png" />                                     
@@ -328,8 +330,8 @@
                                  <!-- bookitem start -->
                                 <div class="bookitem-card">
                                     <div class="bookitem-button">
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
-                                        <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
+                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
                                     </div>
                                     <div class="bookitem-image" style="background-color:#b2eabe;">
                                         <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_djur256_36.png" />                                     
