@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="krypin.bb_aj.boktipsbb_aj_Boktips_Krypin.View" %>
 
-<div id="bb_aj_booklist_Mod">      
+<div id="bb_aj_boktips_Mod">      
         <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
@@ -19,7 +19,7 @@
             </div>
             
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_AddContainer_Boktips bb_aj_Container">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_AddContainer_Boktips bb_aj_Container" style="display:none;">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
@@ -29,7 +29,7 @@
                 </div>
             </div>            
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_SettingsContainer_Boktips bb_aj_Container">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_SettingsContainer_Boktips bb_aj_Container" style="display:none;">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
@@ -50,35 +50,34 @@
 
                     <!-- boklistaHeader -->                 
                     <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--cols-2 ">
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of2"><h2>Skriv boktips</h2></div>
-                        </div>
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem mybookSettings">
-                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" />
-                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" />
-                            </div>
+                    <div class="Grid-cell">
+                        <div class="bb_aj_gridItem bb_aj_gridItem_Header content-1of2"><h2>Skriv boktips</h2></div>
+                    </div>
+                    <div class="Grid-cell">
+                        <div class="bb_aj_gridItem bb_aj_gridItem_Header bb_aj_HeaderSettings">
+                            <a href="#" title="Visa" class="boktipslistshow"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/Arrowhead-Down-32.png" /></a>
+                               
                         </div>
                     </div>
+                </div>
                     <hr />
                     <!-- boklistaContent -->
 
-                <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--cols-2 ">
+                 <div class="aj_bb_KrypinMainGrid aj_bb_formBlock Grid--gutters Grid--cols-3" style="display:none__;">
                     <div class="Grid-cell">
-                        <div class="Demo content-1of2">
+                        <div class="Demo content-2of3">
                             <fieldset>
-                            <label for="txtWriterTitle">*Vad heter boken du vill tipsa om?</label>
-                            <input id="txtWriterTitle" name="txtWriterTitle" type="text" style="width:100%;">
-                        </fieldset>
-                        <br />
-                        
-                        <fieldset>
-                            <label for="txtAJKrypInWriteContent">*Vad handlar boken om och vad tycker du om den?</label>                       
-                            <textarea id="txtAJKrypInWriteContent" name="txtAJKrypInWriteContent"  style="width:100%;"></textarea>
-                        </fieldset>
-                        <br />
-                         <fieldset>
-                            <p>Hur gammal tror du att man borde vara för att tycka om boken? <br>
+                                <label for="txtboktipsTitle">*Vad heter boken du vill tipsa om?</label>
+                                <input id="txtboktipsTitle" name="txtboktipsTitle" type="text" style="width:100%;">
+                            </fieldset>
+                            <br />
+                            <fieldset>
+                                <label for="txtAJKrypInWriteContent">*Vad handlar boken om och vad tycker du om den?</label>                       
+                                <textarea id="txtAJKrypInWriteContent" name="txtAJKrypInWriteContent" style="width:100%; min-height:10rem;"></textarea>
+                            </fieldset>
+                                                  
+                            <fieldset>
+                            Hur gammal tror du att man borde vara för att tycka om boken? <br>
                                     Mellan
                                     <select id="drpBoktipSuitableAgeMin">
                                         <option value="1">1</option>
@@ -124,13 +123,11 @@
                                         <option value="18">18</option>
                                         <option value="19">19</option>
                                         <option value="20">20</option>
-                                    </select>                                
-                                             
+                                    </select>                                                                             
                                     år gammal.
-                            </p>
-                        </fieldset>
-                         <br />
-                         <fieldset>
+                            </fieldset>
+                            <br />
+                            <fieldset>
                             <label for="drpTypavBerattelse">Vad är det du har skrivit?</label><br />
                             <select id="drpBoktipAmnen">
                                     <option value="1">Barn i världen</option>
@@ -159,30 +156,28 @@
                         </fieldset>
                         <br />
                         <fieldset>
-                            <button>Skicka</button>
-                            <button>Avbryt</button>
+                            <div id="bb_aj_boktipsFormMeta" data-bookid="0" data-approved="0" data-usernamn="" data-author="" data-Userage="" style="display:none;"></div>
+                            <button id="cmdSendBoktipsForm" data-cmd="add" data-id="0">Spara</button>
+                            <button id="cmdResetBoktipsForm">Avbryt</button>
                         </fieldset>
-
+                           
                         </div>
                     </div>
-                    <div class="Grid-cell">
-                        <div class="Demo content-1of2 u-textCenter">
+                    <div>
+                        <div class=" content-1of3 u-textCenter ">
                             <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
+                                <div class="boktipsitem-card boktipsExempleimg">
+                                    <div class="bookitem-button">                                        
                                     </div>
                                     <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.com/Portals/0/bokomslag/9789187027321.jpg">
+                                        <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/skrivbok_default256_36.png" />                                     
                                     </div>
                                     <div class="bookitem-info">
-                                     
+                                        <h5></h5>
+                                        <h6></h6>
                                     </div>
-                                    
-                                  </div>
-                                <!-- bookitem slut-->
-
+                                    </div>
+                            <!-- bookitem slut-->
                         </div>
                     </div>
                 </div>
@@ -196,223 +191,39 @@
                     <!-- boklistaHeader -->                   
                     <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--cols-2 ">
                         <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of2"><h2>Mina boktips</h2></div>
+                            <div class="bb_aj_gridItem bb_aj_gridItem_Header content-1of2"><h2>Mina boktips</h2></div>
                         </div>
                         <div class="Grid-cell">
-                            <div class="bb_aj_gridItem mybookSettings">
+                            <div class="bb_aj_gridItem bb_aj_gridItem_Header bb_aj_HeaderSettings">
                                 <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" />
                                 <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" />
                             </div>
                         </div>
                     </div>
                     <hr />
-                     <!-- boklistaContent -->
-                    <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--cols-4 u-textCenter bookitems">
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of4">
-                                
-                                <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                                    </div>
-                                    <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.com/Portals/0/bokomslag/9789187027321.jpg">
-                                    </div>
-                                    <div class="bookitem-info">
-                                      <h5>Winter Jacket</h5>
-                                      <h6>$99.99</h6>
-                                    </div>
-                                    
-                                  </div>
-                                <!-- bookitem slut-->
-
-                            </div>
-                        </div>
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of4">
-
-                                <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                                    </div>
-                                    <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.info/Portals/0/bokomslag/9789163894800.jpg">
-                                    </div>
-                                    <div class="bookitem-info">
-                                      <h5>Winter Jacket</h5>
-                                      <h6>$99.99</h6>
-                                    </div>
-                                    
-                                  </div>
-                                <!-- bookitem slut-->
-
-                            </div>
-                        </div>
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of4">
-
-                                <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                                    </div>
-                                    <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.se/Portals/0/bokomslag/9789175911113.jpg">
-                                    </div>
-                                    <div class="bookitem-info">
-                                      <h5>Winter Jacket</h5>
-                                      <h6>$99.99</h6>
-                                    </div>
-                                    
-                                  </div>
-                                <!-- bookitem slut-->
-
-                            </div>
-                        </div>
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of4">
-
-                                <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                                    </div>
-                                    <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.com/Portals/0/bokomslag/9789132201332.jpg">
-                                    </div>
-                                    <div class="bookitem-info">
-                                      <h5>Winter Jacket</h5>
-                                      <h6>$99.99</h6>
-                                    </div>                                    
-                                  </div>
-                                <!-- bookitem slut-->
-
-                            </div>
-                        </div>
+                     <!-- boklistaContent  START -->  
+                <div id="bb_aj_boktipstemplatecontainer">
+                        
+                    <!-- TEMPLATE START -->
+                    <div class="bb_aj_gridItem u-textCenter">
+                            <img id="logoimg1" class="loading" src= "/Portals/_default/Skins/bb_DAGOBAH_krypin/images/toplogo4.png"  />  
+                        <%--<img id="logoimg2" class="loading" src= "/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/boklistor_128.png"  />--%>  
                     </div>
-                    <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--cols-4 u-textCenter bookitems">
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of4">
-                                
-                                <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                                    </div>
-                                    <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.se/Portals/0/bokomslag/9789176517697.jpg">
-                                    </div>
-                                    <div class="bookitem-info">
-                                      <h5>Winter Jacket</h5>
-                                      <h6>$99.99</h6>
-                                    </div>
-                                    
-                                  </div>
-                                <!-- bookitem slut-->
+                    <!-- TEMPLATE END -->
 
-                            </div>
-                        </div>
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of4">
-
-                                <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                                    </div>
-                                    <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.info/Portals/0/bokomslag/9789188665096.jpg">
-                                    </div>
-                                    <div class="bookitem-info">
-                                      <h5>Winter Jacket</h5>
-                                      <h6>$99.99</h6>
-                                    </div>
-                                    
-                                  </div>
-                                <!-- bookitem slut-->
-
-                            </div>
-                        </div>
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of4">
-
-                                <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                                    </div>
-                                    <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.info/Portals/0/bokomslag/9789129693638.jpg">
-                                    </div>
-                                    <div class="bookitem-info">
-                                      <h5>Winter Jacket</h5>
-                                      <h6>$99.99</h6>
-                                    </div>
-                                    
-                                  </div>
-                                <!-- bookitem slut-->
-
-                            </div>
-                        </div>
-                        <div class="Grid-cell">
-                            <div class="bb_aj_gridItem content-1of4">
-
-                                <!-- bookitem start -->
-                                <div class="bookitem-card">
-                                    <div class="bookitem-button">
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_booktipbtn.png" />
-                                        <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                                    </div>
-                                    <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.se/Portals/0/bokomslag/9789129693829.jpg">
-                                    </div>
-                                    <div class="bookitem-info">
-                                      <h5>Det mystiska huset</h5>
-                                      <h6>av Petter Lidbeck</h6>
-                                    </div>
-                                    
-                                  </div>
-                                <!-- bookitem slut-->
-
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <!-- boklistaContent END -->  
+                    
 
                  </div>
 
             </div>
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--cols-2 u-textCenter">
-            <div class="Grid-cell">
-                <div class="bb_aj_gridItem content-1of2"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="bb_aj_gridItem content-1of2"></div>
-            </div>
-        </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--cols-3 u-textCenter">
-            <div class="Grid-cell">
-                <div class="bb_aj_gridItem content-1of3"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="bb_aj_gridItem content-1of3"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="bb_aj_gridItem content-1of3"></div>
-            </div>
-        </div>        
-         
+        
 </div>	
 <div id="kk_aj_conf" class="kk_aj_conf" >
      <span id="kk_aj_userid" class="kk_aj_userid" runat="server"></span>
     <span id="kk_aj_CurrentPageType" class="kk_aj_CurrentPageType" runat="server"></span>
+</div>
+<div id="bb_aj_modalContainer">    
 </div>
