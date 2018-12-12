@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="krypin.bb_aj.Inventariebb_aj_Inventarie_Krypin.View" %>
 
  <div id="bb_aj_inventory_Mod">      
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--3of3 u-textCenter gridTitle">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">

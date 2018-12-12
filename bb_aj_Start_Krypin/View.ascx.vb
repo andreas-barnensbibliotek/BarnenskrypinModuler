@@ -8,10 +8,13 @@
 ' DEALINGS IN THE SOFTWARE.
 ' 
 Imports DotNetNuke
+Imports DotNetNuke.Security
 Imports DotNetNuke.Entities.Modules.Actions
 Imports DotNetNuke.Entities.Modules
 Imports DotNetNuke.Services.Exceptions
 Imports DotNetNuke.Services.Localization
+Imports barnenskrypinCreateKrypinLibrary
+Imports KrypinSettings
 
 ''' <summary>
 ''' The View class displays the content
@@ -24,6 +27,10 @@ Imports DotNetNuke.Services.Localization
 ''' defined there, as well as properties from DNN such as PortalId, ModuleId, TabId, UserId and many more.
 ''' 
 ''' </summary>
+
+
+
+
 Public Class View
     Inherits bb_aj_Start_KrypinModuleBase
     Implements IActionable
@@ -37,12 +44,39 @@ Public Class View
     ''' <history>
     ''' </history>
     ''' -----------------------------------------------------------------------------
-    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-        Try
+    ''' 
+    Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
 
-            AJKrypingrowboxmain.Visible = True
-            kk_aj_userid.InnerHtml = UserId
-            kk_aj_CurrentPageType.InnerHtml = getcurrentPageView(ModuleId)
+        Try
+            Dim newkrypin As New CreateKrypinMainController
+            If UserId > 0 Then
+                If Not newkrypin.chkifkrypinExists(UserId) Then
+                    newkrypin.CreateNewkrypin(UserId)
+                End If
+            End If
+
+        Catch exc As Exception
+            Exceptions.ProcessModuleLoadException(Me, exc)
+        End Try
+
+    End Sub
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+
+        Try
+            If UserId > 0 Then
+                AJKrypingrowboxmain.Visible = True
+                kk_aj_userid.InnerHtml = UserId
+                kk_aj_CurrentPageType.InnerHtml = getcurrentPageView(ModuleId)
+            Else
+                ' Logout user
+                Dim objPortalSecurity As PortalSecurity = New PortalSecurity()
+                objPortalSecurity.SignOut()
+
+                'Redirect the user to the startpage page
+                Response.Redirect(DotNetNuke.Common.Globals.NavigateURL(Me.PortalSettings.HomeTabId), True)
+
+            End If
+
         Catch exc As Exception
             Exceptions.ProcessModuleLoadException(Me, exc)
         End Try
@@ -72,4 +106,26 @@ Public Class View
         Dim title = myModule.Content
         Return title
     End Function
+
+    'Private Function getKrypinAvatar(userid As Integer) As String
+    '    Dim retsrc As String = ""
+    '    Dim obj As New krypinSettingsMainController
+    '    Dim avatarlist As New ListUserSettingsInfo
+    '    Dim cmdtyp As New CmdSettingsInfo
+    '    cmdtyp.SettingCmdtyp = "get"
+    '    cmdtyp.Userid = userid
+    '    retsrc = userid
+    '    avatarlist = obj.KrypinSettings(cmdtyp)
+
+    '    Dim avatarid As Integer = CInt(avatarlist.SettingsList(0).SettingValue)
+
+    '    For Each itm In avatarlist.SettingsList(0).SettingOptionList
+    '        If itm.SettingsID = avatarid Then
+    '            retsrc = itm.SettingSrc
+    '            Exit For
+    '        End If
+    '    Next
+
+    '    Return retsrc
+    'End Function
 End Class

@@ -155,7 +155,7 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="M:krypin.bb_aj.Startbb_aj_Start_Krypin.View.Page_Load(System.Object,System.EventArgs)">
+<member name="M:krypin.bb_aj.Startbb_aj_Start_Krypin.View.Page_Init(System.Object,System.EventArgs)">
  -----------------------------------------------------------------------------
  <summary>
  Page_Load runs when the control is loaded
@@ -165,6 +165,7 @@ To modify move field declaration from designer file to code-behind file.
  <history>
  </history>
  -----------------------------------------------------------------------------
+ 
 </member>
 <member name="P:krypin.bb_aj.Startbb_aj_Start_Krypin.View.ModuleActions">
  -----------------------------------------------------------------------------

@@ -2,23 +2,16 @@
 <p class="Contributor">
 	andreas josefsson <br />
 	<a href="mailto:andreas@barnensbibliotek.se">andreas@barnensbibliotek.se</a><br />
-	<a href=http://www.dotnetnuke.com>http://www.dotnetnuke.com</a><br />
-	This extension was created using <a href="http://www.christoc.com">Christoc's</a> Module Development Templates for DNN.
 </p>
+<h2>Dependency:</h2>
+<h4>
+Krypinclass library: KrypinSettings.dll
+</h4>
+
+<h4>i page_load: src länk till dagobah avatarimage mappen</h4>
 <hr/>
 <div class="License">
 	<h3>About the bb_aj_Meny_Krypin</h3>
-	<p class="Owner">
-		<b>Version CHANGEME</b><br /><br />
-	</p>
-	<p>Description about version.</p>
 	
-	<h4>Bug Fixes</h4>
-	<ul>
-			<li>List</li>
-			<li>of</li>
-			<li>bug</li>
-			<li>fixes</li>
-	</ul>
 	
 </div>

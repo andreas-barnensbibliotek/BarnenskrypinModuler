@@ -2,7 +2,8 @@ D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Meny_Krypin.dll.config
 D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Meny_Krypin.dll
 D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Meny_Krypin.pdb
 D:\wwwroot\dotnetnuke_v5\bin\bb_aj_Meny_Krypin.xml
-D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Meny_Krypin\obj\Debug\bb_aj_Meny_Krypin.vbprojResolveAssemblyReference.cache
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Meny_Krypin\obj\Debug\bb_aj_Meny_Krypin.dll
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Meny_Krypin\obj\Debug\bb_aj_Meny_Krypin.xml
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Meny_Krypin\obj\Debug\bb_aj_Meny_Krypin.pdb
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Meny_Krypin\obj\Debug\bb_aj_Meny_Krypin.vbprojAssemblyReference.cache
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_Meny_Krypin\obj\Debug\bb_aj_Meny_Krypin.vbproj.CoreCompileInputs.cache

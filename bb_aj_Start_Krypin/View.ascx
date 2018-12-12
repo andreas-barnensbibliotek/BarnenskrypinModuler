@@ -1,6 +1,15 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="krypin.bb_aj.Startbb_aj_Start_Krypin.View" %>
         
-               
+                    <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--3of3 u-textCenter gridTitle">
+                        <div class="Grid-cell">
+                            <div class="bb_aj_gridItem ">
+                                    <div class="ikonheaderBlock">
+                                    <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/Stationery-Pen-128.png" />
+                                    <h1>Krypin</h1> 
+                                </div>  
+                            </div>
+                        </div>   
+                    </div>               
                    
                     <!-- boklistaContent -->
                     <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--cols-4  bookitems">
@@ -74,16 +83,29 @@
                                 <div class="laserjustnuItems">
                                 <h2>Läser just nu</h2>
                                 <div class="bookitem-card">
+                                    <div class="bb-dropdown">
+                                      <img class="bb-dropdown-button" src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/bb-dropdown-button.png" />
+                                      <div class="bb-dropdown-content">
+                                        <ul>
+                                            <li><a href="">Ändra</a></li>
+                                            <li><a href="">Ta bort</a></li>
+                                            <li><a href="">Menyval</a></li>
+                                            <li><a href="">Gör något</a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <!---
                                     <div class="bookitem-button">
                                         <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_booktipbtn.png" />
                                         <img src="/DesktopModules/bb_aj_Boklistor_Krypin/images/item_uncheck.png" />
                                     </div>
+                                    --->
                                     <div class="bookitem-image">
-                                      <img src="http://www.barnensbibliotek.com/Portals/0/bokomslag/9789132201332.jpg">
+                                      <img src="https://www.barnensbibliotek.se/Portals/0/bokomslag/9789129701388.jpg">
                                     </div>
                                     <div class="bookitem-info">
-                                      <h5>Winter Jacket</h5>
-                                      <h6>$99.99</h6>
+                                      <h5>Handbok för superhjältar</h5>
+                                      <h6>Elias Våhlund</h6>
                                     </div>                                    
                                   </div>
                                 </div>

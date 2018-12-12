@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="krypin.bb_aj_boklistorbb_aj_Boklistor_Krypin.View" %>
 
  <div id="bb_aj_booklist_Mod">      
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--3of3 u-textCenter gridTitle">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">
@@ -9,7 +9,7 @@
                         <h1>Boklistor</h1> 
                         <div class="booklistSetup">
                             <a id="bb_aj_cmdAdd_Booklist" title="Lägg till en ny boklista" href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/addBooklist.png" /></a>
-                            <a id="bb_aj_cmdSetting_Booklist"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/booklistSetup.png" /></a>
+                            <a id="bb_aj_cmdSetting_Booklist"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/Help-32.png" /></a>
                             
                         </div>
 
@@ -29,7 +29,7 @@
                         </a>                         
                     </div>
                     <div class="addboklistform">                             
-                        <label for="txtBoklistanamn">Boklista namn</label>   
+                        <label for="txtBoklistanamn">Vad skall din boklista heta?</label>   
                         <input id="txtBoklistanamn" name="txtBoklistanamn" type="text" placeholder="Skriv boklistans namn" >
                         <button id="cmdNyBoklista">Lägg till</button><button id="cmdAvbryt">Avbryt</button>
                     </div>
@@ -38,14 +38,15 @@
             </div>                    
                        
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_SettingsContainer_Booklist bb_aj_Container" style="display:none;">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters  u-textCenter bb_aj_SettingsContainer_Booklist bb_aj_Container" style="display:none;">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
-                        <h3>Inställningar</h3>
+                        <h3>Hjälp</h3>
                         <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
-
-                    </div>                    
+                        
+                    </div>   
+                     <div class="helptextcontent"><p>hjälptext här</p></div>
                 </div>
             </div>            
         </div>

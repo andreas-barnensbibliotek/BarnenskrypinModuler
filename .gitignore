@@ -1,7 +1,10 @@
 # Ignore everything in the root
 /*
+**vs/
+
 # Un-ignore all of subtree
 !/bb_aj_Bibblomon_Krypin/
+
 !/bb_aj_Boklistor_Krypin/
 !/bb_aj_Boktips_Krypin/
 !/bb_aj_Inventarie_Krypin/
@@ -12,3 +15,4 @@
 !/bb_aj_Skrivboken_Krypin/
 !/bb_aj_Start_Krypin/
 !.gitignore
+

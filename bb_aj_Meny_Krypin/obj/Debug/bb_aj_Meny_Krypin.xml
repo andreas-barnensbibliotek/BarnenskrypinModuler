@@ -128,7 +128,25 @@ bb_aj_Meny_Krypin
  
  </summary>
 </member>
-<member name="M:krypin.bb_aj_Menybb_aj_Meny_Krypin.View.Page_Load(System.Object,System.EventArgs)">
+<member name="F:krypin.bb_aj_Menybb_aj_Meny_Krypin.View._bk_aj_nav_avatar">
+<summary>
+bk_aj_nav_avatar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:krypin.bb_aj_Menybb_aj_Meny_Krypin.View._bb_aj_userskinsetting">
+<summary>
+bb_aj_userskinsetting control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="M:krypin.bb_aj_Menybb_aj_Meny_Krypin.View.Page_init(System.Object,System.EventArgs)">
  -----------------------------------------------------------------------------
  <summary>
  Page_Load runs when the control is loaded

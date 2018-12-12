@@ -5,4 +5,4 @@ D:\wwwroot\dotnetnuke_v5\bin\bb_aj_shop_Krypin.xml
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_shop_Krypin\obj\Debug\bb_aj_shop_Krypin.dll
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_shop_Krypin\obj\Debug\bb_aj_shop_Krypin.xml
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_shop_Krypin\obj\Debug\bb_aj_shop_Krypin.pdb
-D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_shop_Krypin\obj\Debug\bb_aj_shop_Krypin.vbprojResolveAssemblyReference.cache
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_shop_Krypin\obj\Debug\bb_aj_shop_Krypin.vbproj.CoreCompileInputs.cache

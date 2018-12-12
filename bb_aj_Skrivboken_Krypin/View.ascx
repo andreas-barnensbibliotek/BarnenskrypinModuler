@@ -1,16 +1,16 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="krypin.bb_aj.skrivbokenbb_aj_Skrivboken_Krypin.View" %>
 
 <div id="bb_aj_skrivboken_Mod">      
-    <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter">
+    <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--3of3 u-textCenter gridTitle">
         <div class="Grid-cell">
             <div class="bb_aj_gridItem ">
                     <div class="ikonheaderBlock">
                     <img src="/DesktopModules/bb_aj_Skrivboken_Krypin/images/Stationery-Pen-128.png" />
                     <h1>Skrivboken</h1> 
                     <div class="booklistSetup">
-                        <a id="bb_aj_cmdAdd" href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/addBooklist.png" /></a>
-                        <%--<a id="bb_aj_cmdSetting_Skrivbok"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/booklistSetup.png" /></a>
-                         --%>   
+                        <%--<a id="bb_aj_cmdAdd" href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/Help-32.png" /></a>--%> 
+                        <a id="bb_aj_cmdSetting_Skrivbok"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/Help-32.png" /></a>
+                           
                     </div>
 
                 </div>
@@ -29,15 +29,17 @@
             </div>
         </div>            
     </div>
-    <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_SettingsContainer_Skrivbok bb_aj_Container" style="display:none;">
+    <div class="aj_bb_KrypinMainGrid Grid--gutters  u-textCenter bb_aj_SettingsContainer_Skrivbok bb_aj_Container" style="display:none;">
         <div class="Grid-cell">
-            <div class="bb_aj_gridItem ">
-                    <div class="ikonheaderBlock">                        
-                    <h3>Inställningar</h3>
-                    <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
-                </div>                    
-            </div>
-        </div>            
+                <div class="bb_aj_gridItem ">
+                     <div class="ikonheaderBlock">                        
+                        <h3>Hjälp</h3>
+                        <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
+                        
+                    </div>   
+                     <div class="helptextcontent"><p>hjälptext här</p></div>
+                </div>
+            </div>                      
     </div>
 
     <div class="aj_bb_KrypinMainGrid Grid--full ">
@@ -64,7 +66,7 @@
                     <div class="Grid-cell">
                         <div class="Demo content-2of3">
                             <fieldset>
-                            <label for="txtWriterTitle">Rubrik</label>
+                            <label id="lblWriterTitle" for="txtWriterTitle">Rubrik</label>
                             <input id="txtWriterTitle" name="txtWriterTitle" type="text" style="width:100%;">
                         </fieldset>
                         <br />
@@ -92,14 +94,15 @@
                         </fieldset>
                         <br />
                         <fieldset>
-                            <label for="txtAJKrypInWriteContent">*skriv din berättelse här</label>                       
+                            <label id="lblAJKrypInWriteContent" for="txtAJKrypInWriteContent">*skriv din berättelse här</label>                       
                             <textarea id="txtAJKrypInWriteContent" name="txtAJKrypInWriteContent" style="width:100%; min-height:10rem;"></textarea>
                         </fieldset>
                         <br />
                         <fieldset>
+                             <label id="lblAJKrypInWritedelad" for="drp_AJKrypInWritedelad">Vem får läsa?</label>  <br />                     
+                           
                             <select id="drp_AJKrypInWritedelad">
-                                    <option value="1">Bara jag</option>
-                                    <option value="2">Mina favorit krypin</option>
+                                    <option value="1">Bara jag</option>                                    
                                     <option value="3">Alla som kan läsa</option>
                                 </select>
                         </fieldset>
@@ -145,9 +148,9 @@
                     <div class="Grid-cell">
                         <div class="bb_aj_gridItem booklistSettings">                            
 					           
-					        <a href="#" title="Skriv ut" class="booklistPrint"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" /></a>
-					        <a href="#" title="Maila listan" class="booklistMail"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" /></a>			
-					            
+					        <a href="#" title="Skriv ut" class="kk_aj_print"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" /></a>
+					        <a href="#" title="Maila listan" class="kk_aj_Mail"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" /></a>
+					
                         </div>
                     </div>
                 </div>

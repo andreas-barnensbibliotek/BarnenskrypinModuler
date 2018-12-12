@@ -5,3 +5,4 @@ D:\wwwroot\dotnetnuke_v5\bin\bb_aj_setup_krypin.xml
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_setup_krypin\obj\Debug\bb_aj_setup_krypin.dll
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_setup_krypin\obj\Debug\bb_aj_setup_krypin.xml
 D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_setup_krypin\obj\Debug\bb_aj_setup_krypin.pdb
+D:\wwwroot\dotnetnuke_v5\DesktopModules\bb_aj_setup_krypin\obj\Debug\bb_aj_setup_krypin.vbproj.CoreCompileInputs.cache

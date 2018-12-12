@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="krypin.bb_aj.bibblomonbb_aj_Bibblomon_Krypin.View" %>
 
  <div id="bb_aj_booklist_Mod">      
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters  u-textCenter gridTitle">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">
@@ -9,9 +9,12 @@
                         <h1>Bibblomon</h1> 
                         <div class="scoreBlock">
                                 <h3>Main Score:</h3>
-                                <h2 class="bb_aj_MainScore">0xp</h2>
+                                <h2 class="bb_aj_MainScore">0 XP</h2>
                         </div>
-
+                         <div class="booklistSetup">
+                           <a id="bb_aj_cmdSetting_Bibblomon"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/Help-32.png" /></a>
+                                                       
+                        </div>
                     </div>
                     
                 </div>
@@ -27,14 +30,17 @@
                 </div>
             </div>            
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_BooklistSettings">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters u-textCenter bb_aj_SettingsContainer_Bibblomon bb_aj_Container" style="display:none;">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
-                        <h3>Inställningar</h3>
-                    </div>                    
+                        <h3>Hjälp</h3>
+                        <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
+                        
+                    </div>   
+                     <div class="helptextcontent"><p>hjälptext här</p></div>
                 </div>
-            </div>            
+            </div>              
         </div>
 
 

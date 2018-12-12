@@ -1,15 +1,14 @@
 ﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="View.ascx.vb" Inherits="krypin.bb_aj.boktipsbb_aj_Boktips_Krypin.View" %>
 
 <div id="bb_aj_boktips_Mod">      
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--3of3 u-textCenter gridTitle">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">
                         <img src="/DesktopModules/bb_aj_Boktips_Krypin/images/Student-Read-03-128.png" />
                         <h1>Boktips</h1> 
                         <div class="booklistSetup">
-                            <a id="bb_aj_cmdAdd_Boktips" href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/addBooklist.png" /></a>
-                            <a id="bb_aj_cmdSetting_Boktips"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/booklistSetup.png" /></a>
+                             <a id="bb_aj_cmdSetting_Boktips"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/Help-32.png" /></a>
                             
                         </div>
 
@@ -29,15 +28,17 @@
                 </div>
             </div>            
         </div>
-        <div class="aj_bb_KrypinMainGrid Grid--gutters Grid--2of3 u-textCenter bb_aj_SettingsContainer_Boktips bb_aj_Container" style="display:none;">
+        <div class="aj_bb_KrypinMainGrid Grid--gutters u-textCenter bb_aj_SettingsContainer_Boktips bb_aj_Container" style="display:none;">
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
-                        <h3>Inställningar</h3>
+                        <h3>Hjälp</h3>
                         <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
-                    </div>                    
+                        
+                    </div>   
+                     <div class="helptextcontent"><p>hjälptext här</p></div>
                 </div>
-            </div>            
+            </div>              
         </div>
 
 
@@ -67,12 +68,12 @@
                     <div class="Grid-cell">
                         <div class="Demo content-2of3">
                             <fieldset>
-                                <label for="txtboktipsTitle">*Vad heter boken du vill tipsa om?</label>
+                                <label id="lblboktipsTitle" for="txtboktipsTitle">*Vad heter boken du vill tipsa om?</label>
                                 <input id="txtboktipsTitle" name="txtboktipsTitle" type="text" style="width:100%;">
                             </fieldset>
                             <br />
                             <fieldset>
-                                <label for="txtAJKrypInWriteContent">*Vad handlar boken om och vad tycker du om den?</label>                       
+                                <label id="lblAJKrypInWriteContent" for="txtAJKrypInWriteContent">*Vad handlar boken om och vad tycker du om den?</label>                       
                                 <textarea id="txtAJKrypInWriteContent" name="txtAJKrypInWriteContent" style="width:100%; min-height:10rem;"></textarea>
                             </fieldset>
                                                   
@@ -128,8 +129,9 @@
                             </fieldset>
                             <br />
                             <fieldset>
-                            <label for="drpTypavBerattelse">Vad är det du har skrivit?</label><br />
+                            <label for="drpTypavBerattelse">Vad är det för typ av boktips?</label><br />
                             <select id="drpBoktipAmnen">
+                                    <option value="0">Välj</option>
                                     <option value="1">Barn i världen</option>
                                     <option value="2">Deckare</option>
                                     <option value="3">Vilda djur</option>
@@ -195,8 +197,9 @@
                         </div>
                         <div class="Grid-cell">
                             <div class="bb_aj_gridItem bb_aj_gridItem_Header bb_aj_HeaderSettings">
-                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" />
-                                <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" />
+                                <a href="#" title="Skriv ut" class="kk_aj_print"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/print_32.png" /></a>
+					            <a href="#" title="Maila listan" class="kk_aj_Mail"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/mail_32.png" /></a>
+					
                             </div>
                         </div>
                     </div>
