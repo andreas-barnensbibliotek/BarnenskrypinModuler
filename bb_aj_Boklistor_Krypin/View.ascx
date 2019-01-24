@@ -8,7 +8,7 @@
                         <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/boklistor_128.png" />
                         <h1>Boklistor</h1> 
                         <div class="booklistSetup">
-                            <a id="bb_aj_cmdAdd_Booklist" title="Lägg till en ny boklista" href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/addBooklist.png" /></a>
+                            <a id="bb_aj_cmdAdd_Booklist" title="Lägg till en ny boklista" href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/addBooklist.png" alt="Klicka på + om du göra en ny lista" /></a>
                             <a id="bb_aj_cmdSetting_Booklist"  href="#"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/Help-32.png" /></a>
                             
                         </div>
@@ -26,7 +26,7 @@
                         <h3>Lägg till boklista</h3>
                         <a href="#" class="bb_aj_CloseContainer">
                             <img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" />
-                        </a>                         
+                        </a>                       
                     </div>
                     <div class="addboklistform">                             
                         <label for="txtBoklistanamn">Vad skall din boklista heta?</label>   
@@ -42,11 +42,25 @@
             <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
-                        <h3>Hjälp</h3>
+                        <h3>HJÄLP</h3>
                         <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
                         
                     </div>   
-                     <div class="helptextcontent"><p>hjälptext här</p></div>
+                     <div class="helptextcontent"> <h3>Leta reda på böcker i Katalogen.</h3> 
+                         
+                        <p>
+                            <a href="/Katalogen/tabid/578/Default.aspx">Leta i katalogen här!</a><br />
+                            Håll muspekaren över ett bokomslag.<br />
+                            Dina olika listor dyker upp.<br />
+                            Klicka i vilken boklista du vill ha boken.<br />
+                            Är du på katalogsidan med all info om en enda bok? Klicka i Lägg i mina böcker (finns under bokomslaget).
+                           </p>
+                            <h3> Flytta mellan listor </h3>
+                            <p>Dra och släpp bokomslaget.</p>
+                            <h3>Ta bort bok</h3>
+                            <p>Klicka på menyn (menybilden) längst upp till höger vid varje bokomslag. <br /> Välj "Ta bort från listan"</p>
+
+                        </div>
                 </div>
             </div>            
         </div>

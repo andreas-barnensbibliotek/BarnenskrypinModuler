@@ -33,11 +33,24 @@
         <div class="Grid-cell">
                 <div class="bb_aj_gridItem ">
                      <div class="ikonheaderBlock">                        
-                        <h3>Hjälp</h3>
+                        <h3>HJÄLP</h3>
                         <a href="#" class="bb_aj_CloseContainer"><img src="/Portals/_default/Skins/bb_DAGOBAH_krypin/images/modules/item_uncheck.png" /></a>
                         
                     </div>   
-                     <div class="helptextcontent"><p>hjälptext här</p></div>
+                     <div class="helptextcontent">
+                         <h3>Skrivboken</h3>                          
+                         <p>
+                             Här skriver du berättelser, dikter, roliga historier… Vad du vill!
+                         </p>
+                         <p>
+                             Välj om bara du själv eller alla, som besöker Barnensbibliotek.se, kan se det du skrivit.<br />
+                             Om du väljer ALLA läser vi din text innan den syns för alla.<br />
+                             När vi läst och godkänt dyker din text upp i <a href="/Skriv/Skrivhörnet/tabid/1236/Default.aspx">Skrivhörnet</a> som du hittar i menyn Skriv.
+                         </p>
+                         <p>Du kan, när du vill, ändra i din text, välja att andra inte ska se den eller ta bort texten helt.</p>
+                         <p>Allt du skriver ger poäng. Kolla din Scoreboard!</p>
+                         
+                     </div>
                 </div>
             </div>                      
     </div>

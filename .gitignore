@@ -1,13 +1,18 @@
 # Ignore everything in the root
 /*
 **vs/
+**packages/
 
 # Un-ignore all of subtree
+!/bb_aj_avatar_mod_Krypin/
+!/bb_aj_bibblHighscore_mod_krypin/
 !/bb_aj_Bibblomon_Krypin/
-
 !/bb_aj_Boklistor_Krypin/
 !/bb_aj_Boktips_Krypin/
+!/bb_aj_Growbox_mod_Krypin/
 !/bb_aj_Inventarie_Krypin/
+!/bb_aj_LaserJustNu_mod_Krypin/
+!/bb_aj_latestuserboktips_mod_Krypin/
 !/bb_aj_Meny_Krypin/
 !/bb_aj_Scoreboard_Krypin/
 !/bb_aj_setup_krypin/
